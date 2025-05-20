@@ -18,11 +18,13 @@ An IDE like IntelliJ IDEA or Eclipse
 
 Installation
 Clone the repository:
-
+'
 bash
 Copy code
 git clone https://github.com/Zomerzz/sud.git
 Navigate to the project directory:
+'
+
 
 bash
 Copy code
