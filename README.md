@@ -1,59 +1,41 @@
-🧙‍♂️ SUD - Simple Text Adventure Game
-Welcome to SUD, a minimalist text-based adventure game crafted in Java. Dive into a world where your choices shape the narrative, and every decision counts.
+<h1>🧙‍♂️ SUD - Gioco di Avventura Testuale</h1>
 
-🚀 Features
-Interactive Gameplay: Navigate through rooms, interact with entities, and cast spells.
+  <p><strong>SUD</strong> è un gioco di avventura testuale minimalista sviluppato in Java. Esplora un mondo interattivo dove le tue scelte influenzano il corso della storia.</p>
 
-Modular Design: Organized codebase with clear separation of concerns.
+  <h2>🚀 Caratteristiche</h2>
+  <ul>
+    <li><strong>Gameplay interattivo</strong>: Muoviti tra stanze, interagisci con entità e lancia incantesimi.</li>
+    <li><strong>Design modulare</strong>: Codice organizzato con una chiara separazione delle responsabilità.</li>
+    <li><strong>Meccaniche di dadi personalizzate</strong>: Sistema di dadi unico per determinare gli esiti.</li>
+    <li><strong>Gestione delle eccezioni</strong>: Terminazione del gioco gestita in modo elegante con eccezioni personalizzate.</li>
+  </ul>
 
-Custom Dice Mechanics: Unique dice system to determine outcomes.
+  <h2>🛠️ Come iniziare</h2>
 
-Exception Handling: Graceful game termination with custom exceptions.
+  <h3>Prerequisiti</h3>
+  <ul>
+    <li>Java Development Kit (JDK) 8 o superiore</li>
+    <li>Un IDE come IntelliJ IDEA o Eclipse</li>
+  </ul>
 
-🛠️ Getting Started
-Prerequisites
-Java Development Kit (JDK) 8 or higher
-
-An IDE like IntelliJ IDEA or Eclipse
-
-Installation
-Clone the repository:
-'
-bash
-Copy code
-git clone https://github.com/Zomerzz/sud.git
-Navigate to the project directory:
-'
-
-
-bash
-Copy code
+  <h3>Installazione</h3>
+  <pre><code>git clone https://github.com/Zomerzz/sud.git
 cd sud
-Compile the Java files:
-
-bash
-Copy code
 javac *.java
-Run the game:
+java Start</code></pre>
 
-bash
-Copy code
-java Start
-🗂️ Project Structure
-Game.java: Core game loop and logic.
+  <h2>🗂️ Struttura del progetto</h2>
+  <ul>
+    <li><code>Game.java</code>: Ciclo di gioco principale e logica di gioco.</li>
+    <li><code>Start.java</code>: Punto di ingresso dell'applicazione.</li>
+    <li><code>Spell.java</code>: Meccaniche relative agli incantesimi.</li>
+    <li><code>dices.java</code>: Implementazione del sistema di dadi.</li>
+    <li><code>GameClosingException.java</code>: Gestione della chiusura del gioco tramite eccezioni.</li>
+    <li><code>entity/</code>, <code>items/</code>, <code>rooms/</code>: Pacchetti per entità, oggetti e definizioni delle stanze.</li>
+  </ul>
 
-Start.java: Entry point of the application.
+  <h2>🤝 Contribuire</h2>
+  <p>Contributi e suggerimenti sono benvenuti! Sentiti libero di fare un fork del repository e inviare una pull request.</p>
 
-Spell.java: Defines spell mechanics.
-
-dices.java: Implements custom dice rolls.
-
-GameClosingException.java: Handles game termination scenarios.
-
-entity/, items/, rooms/: Packages for game entities, items, and room definitions.
-
-🤝 Contributing
-Contributions are welcome! Feel free to fork the repository and submit pull requests.
-
-📄 License
-This project is open-source and available under the MIT License.
+  <h2>📄 Licenza</h2>
+  <p>Questo progetto è open-source e disponibile sotto licenza <a href="LICENSE">MIT</a>.</p>
